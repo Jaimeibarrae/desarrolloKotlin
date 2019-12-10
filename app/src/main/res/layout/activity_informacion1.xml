@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.informacion1Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nombre_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginLeft="0dp"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:text="Kotlin"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detalles_producto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:textSize="28dp"
+                android:text="¿Qué es Kotlin? Kotlin es un lenguaje de programación estáticamente tipado, es decir, es la máquina virtual la que infiere el tipo a las variables y, por tanto, no hay que especificarlas. Es un lenguaje que corre bajo la Máquina Virtual de Java, por lo que tiene el mismo rendimiento que Java, sin penalizar en ningún momento en este aspecto.
+
+Está diseñado para interoperar con Java, por lo tanto podemos tener módulos programados en Java y otros módulos desarrollados en Kotlin. Estos módulos se podrían comunicar perfectamente sin problemas, simplemente tendrían que salvar el escalón que existe entre el desarrollo en Java y las premisas que tiene el desarrollo en Kotlin.
+
+"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnVer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:text="Ver video"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

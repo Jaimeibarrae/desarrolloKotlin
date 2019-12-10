@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Introducción(Desarrollo en Android)</string>
+    <string name="titulologoes"> Introducción \n (Desarrollo \n en \n Android)</string>
+    <string name="menucreditos">Creditos</string>
+    <string name="desarrolladores">Desarrollado por:</string>
+    <string name="desarrolladores1">Carlos Joel Rodriguez Mares\nJaime Armando Cano Ibarra</string>
+    <string name="grupo">Grupo:</string>
+    <string name="nombregrupo">GDS0143</string>
+    <string name="usuariosregistrados">Usuarios Registrados</string>
+</resources>

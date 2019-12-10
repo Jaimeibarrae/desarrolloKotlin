@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.informacion3Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nombre_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:text="HISTORIA DE ANDROID"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detalles_producto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:textSize="28dp"
+                android:text="Allá por octubre del año 2003, Andy Rubin, Rich Miner, Nick Sears y Chris White daban forma a Android Inc. En sus inicios, únicamente trascendió que la actividad de la empresa se centraba en “el desarrollo de software para teléfonos móviles“.
+
+ Android Inc. pasó casi dos años trabajando “en la sombra”, hasta que Google comenzó a “reclutar” a fuerza de talonario a algunas “startup” (término que se refiere a nuevas compañías con un futuro prometedor) del sector móvil, con la clara intención de replicar su éxito de la Web en el futuro de las telecomunicaciones inalámbricas.
+
+ En Mayo del mismo año Google se hacía con Dodgeball, la empresa que desarrolló un sistema de red social y posicionamiento móvil que, una vez integrada en la estructura empresarial de los chicos de Mountain View, cesó su actividad en 2009 para dar paso a Google Latitude. Llegó el mes de agosto y le tocó el turno a Android Inc., la fecha clave para llegar a entender mejor el éxito de Android es el 5 de noviembre de 2007. Ese día se fundaba la OHA (Open Handset Alliance), una alianza comercial de 35 componentes iniciales liderada por Google, que contaba con fabricantes de terminales móviles, operadores de telecomunicaciones, fabricantes de chips y desarrolladores de software. El mismo día se dio a conocer por  vez primera lo que hoy conocemos como Android, una plataforma de código abierto para móviles que se presentaba con la garantía de estar basada en el sistema operativo Linux."
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnVer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:text="Ver video"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

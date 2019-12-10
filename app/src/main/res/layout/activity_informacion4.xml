@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".informacion4Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nombre_producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:text="¿Kotlin reemplazará a Java?"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detalles_producto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:textSize="28dp"
+                android:text="El uso generalizado de Kotlin no indica su capacidad para reemplazar Java, pero el ecosistema de Java es bastante grande y Kotlin está influenciado por Java en mayor medida. A partir de ahora, parece inviable considerando la comunidad de adultos de Java.
+
+Vamos a profundizar un poco más.
+
+Java es un lenguaje estable, estándar, orientado a objetos, ampliamente utilizado en el mundo de la programación.
+
+Además Android está escrito en Java junto con C y C++, y esta podría ser una razón por la cual los desarrolladores de Android están más inclinados hacia el uso de Java.
+
+"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnVer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:text="Ver video"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
